@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #0095DB;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+nav a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #164194;
+    color: white;
+}
+
+nav a:hover:not(.active) {
+    background-color: #164194;
+    color: white;
+}
+
+header {
+    background-color: #0095DB;
+    display: block;
+    overflow: auto;
+}
+
+.labens-logo {
+    float: left;
+    width: 20%;
+}
+
+.labens-header {
+	margin-left:25%;
+	padding:1px 1px;
+	align-content: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
