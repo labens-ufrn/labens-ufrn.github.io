@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<title>LABENS - Laboratório de Banco de Dados e Engenharia de Software</title>
 <style>
 body {
     margin: 0;
 }
 
-ul {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,37 +19,47 @@ ul {
     overflow: auto;
 }
 
-li a {
+nav a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a.active {
+nav a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-li a:hover:not(.active) {
+nav a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+header {
+    background-color: #f1f1f1;
+	display: block;
+	overflow: auto;
 }
 </style>
 </head>
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+	<header>
+	  <h1>LABENS - DCT/CERES/UFRN</h1>
+	</header>
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
-  <h2>LABENS - DCT/CERES/UFRN</h2>
-  <p>Página do Laboratório de Banco de Dados e Engenharia de Software vinculado ao Departamento de Computação e Tecnologia DCT/CERES/UFRN.</p>
-</div>
+	
+	<nav>
+	  <a class="active" href="#home">Home</a>
+	  <a href="#news">News</a>
+	  <a href="#contact">Contact</a>
+	  <a href="#about">About</a>
+	</nav> 
+
+	<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+	  <p>Página do Laboratório de Banco de Dados e Engenharia de Software vinculado ao Departamento de Computação e Tecnologia DCT/CERES/UFRN.</p>
+	</div>
 
 </body>
 </html>
